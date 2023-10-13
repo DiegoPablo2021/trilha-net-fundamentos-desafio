@@ -35,7 +35,6 @@ namespace DesafioFundamentos.Models
                 // IMPLEMENTADO!!!!!
                 int horas = 0;
                 decimal valorTotal = 0;
-                //int.Parse(Console.ReadLine());
                 horas = Convert.ToInt32(Console.ReadLine());
                 valorTotal = precoInicial + precoPorHora * horas; 
 
